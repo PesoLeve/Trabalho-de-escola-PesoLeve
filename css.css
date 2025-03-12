@@ -10,9 +10,10 @@
 }
 #introdução{
     text-align: center;
-    font-style: 10pt arial;
+    font-style: arial;
+    font-size: 03vw;
 }
-#menu{
+nav{
     position: sticky;
     width: auto;
 }
@@ -20,7 +21,7 @@
     text-decoration: none;
 }
 body{
-    font: 10pt ;
+    font: 10pt ;    
 }
 li{
   display: inline-block;
