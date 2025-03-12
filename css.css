@@ -1,0 +1,69 @@
+#ajuda{
+    float: right;
+    display: block;
+    width: auto;
+}
+#texto{
+    text-align: center;
+    font-style: arial;
+    font-size: 20pt;
+}
+#introdução{
+    text-align: center;
+    font-style: 10pt arial;
+}
+#menu{
+    position: sticky;
+    width: auto;
+}
+#planos{
+    text-decoration: none;
+}
+body{
+    font: 10pt ;
+}
+li{
+  display: inline-block;
+}
+img{
+    width: auto; 
+    position: relative;
+    left: 5cm;
+    top: 20px;
+}
+table, th, tr, td {
+    width: auto;
+    background-color: white;
+    color: blueviolet; 
+    border-color:rgb(0, 0, 0);
+    border-style: solid ;
+    border-width: 5px; 
+    border-radius: 25px; }
+ul{
+    list-style-type: none;
+    padding: auto;
+    margin: auto;
+    top:0;
+    background-color:rgba(200, 200, 200, 1);
+    overflow: hidden;
+    position: sticky;
+}
+li a{
+    float: left;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-style: solid;
+}
+li a:hover{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+li a.active{
+  background-color: blueviolet;
+  color:aquamarine;
+}
+.pesoleve{
+    font-style: oblique,    italic;
+    color:rgba(158, 55, 199, 0.808);
+}
